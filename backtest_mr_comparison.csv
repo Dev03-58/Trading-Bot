@@ -1,0 +1,10 @@
+section,variant,timeframe,window,trades,win_rate_pct,profit_factor,return_pct,max_drawdown_pct,fees_paid_usdt,final_balance,bnh_return_pct,exit_breakdown
+MR Matrix,MR-A,15m,Days 0-90 (Main),43,48.84,0.68,-3.85,5.41,431.15,9615.11,39.71,"{'RSI_EXIT': 34, 'STOP_LOSS': 9}"
+MR Matrix,MR-B,15m,Days 0-90 (Main),10,50.0,0.42,-1.62,2.19,100.09,9838.34,39.71,"{'RSI_EXIT': 8, 'STOP_LOSS': 2}"
+MR Matrix,MR-A,1h,Days 0-90 (Main),14,78.57,3.42,6.3,1.1,147.07,10630.23,39.64,"{'RSI_EXIT': 11, 'TAKE_PROFIT': 1, 'STOP_LOSS': 2}"
+MR Matrix,MR-B,1h,Days 0-90 (Main),3,100.0,inf,2.65,0.0,30.74,10264.74,39.64,"{'TAKE_PROFIT': 1, 'RSI_EXIT': 2}"
+MR Robustness,MR-A,15m,Days 90-180 (Older),53,56.6,0.74,-4.99,12.48,508.34,9501.14,-12.75,"{'STOP_LOSS': 17, 'RSI_EXIT': 36}"
+MR Robustness,MR-A,15m,Days 180-270 (Oldest),71,54.93,0.82,-6.01,10.99,687.09,9398.73,-23.98,"{'RSI_EXIT': 39, 'STOP_LOSS': 31, 'TAKE_PROFIT': 1}"
+Cross-Comparison 50/50,MR-A vs Trend_V0,15m / 1h,Days 0-90 (Bull),N/A,N/A,N/A,-0.03,N/A,N/A,N/A,39.71,"Trend: 3.8%, MR: -3.85%"
+Cross-Comparison 50/50,MR-A vs Trend_V0,15m / 1h,Days 90-180 (Chop/Dip),N/A,N/A,N/A,-3.14,N/A,N/A,N/A,-12.75,"Trend: -1.28%, MR: -4.99%"
+Cross-Comparison 50/50,MR-A vs Trend_V0,15m / 1h,Days 180-270 (Correction),N/A,N/A,N/A,-3.38,N/A,N/A,N/A,-23.98,"Trend: -0.76%, MR: -6.01%"

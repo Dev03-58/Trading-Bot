@@ -1,0 +1,12 @@
+section,variant,timeframe,window,trades,win_rate_pct,profit_factor,return_pct,max_drawdown_pct,fees_paid_usdt,final_balance,bnh_return_pct,exit_breakdown
+Main Matrix,V0,15m,Days 0-90 (Main),209,19.14,0.53,-16.59,17.9,1907.25,8341.08,39.77,"{'STRATEGY_EXIT': 202, 'TAKE_PROFIT': 6, 'STOP_LOSS': 1}"
+Main Matrix,V1,15m,Days 0-90 (Main),126,20.63,0.66,-7.55,11.35,1183.17,9244.8,39.77,"{'STRATEGY_EXIT': 120, 'TAKE_PROFIT': 5, 'STOP_LOSS': 1}"
+Main Matrix,V2,15m,Days 0-90 (Main),25,36.0,0.96,-0.76,5.58,249.57,9924.34,39.77,"{'TAKE_PROFIT': 9, 'STOP_LOSS': 16}"
+Main Matrix,V0,1h,Days 0-90 (Main),45,33.33,1.33,3.8,3.82,457.16,10380.23,39.61,"{'TAKE_PROFIT': 7, 'STRATEGY_EXIT': 38}"
+Main Matrix,V1,1h,Days 0-90 (Main),29,34.48,1.17,1.28,2.56,289.83,10128.18,39.61,"{'STRATEGY_EXIT': 25, 'TAKE_PROFIT': 4}"
+Main Matrix,V2,1h,Days 0-90 (Main),15,40.0,1.13,1.34,2.51,150.63,10134.45,39.61,"{'STOP_LOSS': 9, 'TAKE_PROFIT': 6}"
+Main Matrix,V0,4h,Days 0-90 (Main),12,33.33,0.82,-1.24,4.33,119.2,9875.54,41.96,"{'TAKE_PROFIT': 3, 'STRATEGY_EXIT': 5, 'STOP_LOSS': 4}"
+Main Matrix,V1,4h,Days 0-90 (Main),8,12.5,0.28,-4.7,5.79,77.09,9530.24,41.96,"{'STOP_LOSS': 4, 'STRATEGY_EXIT': 3, 'TAKE_PROFIT': 1}"
+Main Matrix,V2,4h,Days 0-90 (Main),8,12.5,0.24,-5.69,6.42,76.78,9431.27,41.96,"{'STOP_LOSS': 7, 'TAKE_PROFIT': 1}"
+Robustness Check,V0,1h,Days 90-180 (Older),55,30.91,0.93,-1.28,4.67,549.46,9872.11,-5.12,"{'STOP_LOSS': 5, 'STRATEGY_EXIT': 43, 'TAKE_PROFIT': 7}"
+Robustness Check,V0,1h,Days 180-270 (Oldest),67,28.36,0.97,-0.76,6.73,661.59,9924.05,-11.95,"{'TAKE_PROFIT': 13, 'STRATEGY_EXIT': 48, 'STOP_LOSS': 6}"
